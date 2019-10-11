@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:fontFamily="sans-serif-light"
+            android:text="知识点标题"/>
+        <EditText
+            android:id="@+id/k_e_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:fontFamily="sans-serif-light"
+            android:text="知识点内容"/>
+        <EditText
+            android:id="@+id/k_e_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:fontFamily="sans-serif-light"
+            android:text="重要指数"/>
+        <RadioGroup
+            android:id="@+id/k_e_important"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:text="1"
+                android:checked="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ></RadioButton>
+            <RadioButton
+                android:text="2"
+                android:checked="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ></RadioButton>
+            <RadioButton
+                android:text="3"
+                android:checked="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ></RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:fontFamily="sans-serif-light"
+            android:text="难度指数"/>
+        <RadioGroup
+            android:id="@+id/k_e_difficult"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:text="1"
+                android:checked="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ></RadioButton>
+            <RadioButton
+                android:text="2"
+                android:checked="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ></RadioButton>
+            <RadioButton
+                android:text="3"
+                android:checked="false"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ></RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:fontFamily="sans-serif-light"
+            android:text="配图路径"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go_select_zh"
+            android:id="@+id/img_select"/>
+        <TextView
+            android:id="@+id/img_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="保存"/>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="取消" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/result_panel"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:minHeight="50dp"-->
+    <!--android:gravity="left"-->
+    <!--android:fontFamily="sans-serif-light"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/log_panel"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:minHeight="50dp"-->
+    <!--android:gravity="center"-->
+    <!--android:fontFamily="sans-serif-light"-->
+    <!--/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/talk"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:textSize="15sp"-->
+    <!--android:text="Start Talk"/>-->
+
+</LinearLayout>

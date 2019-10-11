@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bacground">#F1F1F1</color>
+    <!-- hint色 -->
+    <color name="text_hint">#b3b3b3</color>
+    <!-- 输入边框 -->
+    <color name="login_text_color">#222222</color>
+    <!-- 描边线 -->
+    <color name="button_divider">#dbd9d9</color>
+    <!-- 45%透明黑 -->
+    <color name="black_alpha">#71000000</color>
+    <!-- 30%透明黑 -->
+    <color name="black_alpha_30">#48000000</color>
+    <color name="colorPrimaryDark_login">#E64A19</color>
+    <color name="app_primary">#ffffff</color>
+    <color name="app_primary_dark">#b22222</color>
+    <color name="Chocolate">#8B4513</color>
+    <color name="white">#FFFFFF</color>
+    <color name="DarkOrange4">#8B4500</color>
+    <color name="Friebrick3">#CD2626</color>
+    <color name="Friebrick2">#EE2C2C</color>
+    <color name="Friebrick1">#FF3030</color>
+    <color name="Yellow1">#FFFF00</color>
+    <color name="Yellow2">#EEEE00</color>
+    <color name="Yellow3">#CDCD00</color>
+    <color name="Orange1">#FFC125</color>
+    <color name="Orange2">#EEB422</color>
+    <color name="Orange3">#CD9B1D</color>
+    <color name="Grey1">#9C9C9C</color>
+    <color name="Grey2">#828282</color>
+    <color name="Grey3">#696969</color>
+    <color name="DarkGreen">#006400</color>
+</resources>
